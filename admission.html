@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission | CLASSROOM </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="background.jpg">
+  <header>
+        <div class="container">
+            <h1><font color="deeppink">CLASSROOM </h1></font>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="index.html">Courses</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+					<li><a href="admission.html" class="btn-admission">Admission</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	
+	<center>
+    <h3>Admission Form</h3>
+     <form action="https://formspree.io/f/mwpeppyz" method="POST" >
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+		
+		<label for="Address">Address:</label><br>
+		<input type="text" id="Address" name="Address" required><br><br>
+
+        <level for="date of birth">Date of birth</level><br>
+        <input type="date" id="date of birth" name="date of birth" required><br><br>
+
+        <label for="gender">Gender</label><br>
+        <select id="gender"name="gender"  required>
+            <option value="">--please select--</option>
+            <option value="">male</option>
+            <option value="">female</option>
+            <option value="">other</option>
+        </select><br><br>
+
+        <label for="class">Class</label><br>
+        <select id="class"name="class" required>
+            <option value="">--plese select--</option>
+            <option value="">VII</option>
+            <option value="">VIII</option>
+            <option value="">IX</option>
+            <option value="">X</option>
+            <option value="">XI</option>
+            <option value="">XII</option>
+        </select><br><br>
+
+        <label for="school">School</label><br>
+        <input type="text" id="school" name="school" required><br><br>
+
+        <label for="course">Select a Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="">-- Please select --</option>
+			<option value="Arts and English (Classes VII-X)">Arts & Endlish (Classes VII-X)</option>
+            <option value="Arts (Classes VII-X)">Arts (Classes VII-X)</option>
+            <option value="English (Classes VII-X)">English (Classes VII-X)</option>
+            <option value="English (Classes XI-XII)">English (Classes XI-XII)</option>
+        </select><br><br>
+
+        <label for="message">Message (Optional):</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+		<form action="https://formspree.io/f/mwpeppyz" method="POST">
+    <!-- Form fields as previously defined -->
+</form>
+
+    </form>
+	</center>
+
+
+</body>
+</html>
